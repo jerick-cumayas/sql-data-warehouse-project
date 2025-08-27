@@ -8,4 +8,5 @@ a repository of my implementation of a data warehouse project. it follows the im
     - [x] Analysing: Source Systems
     - [x] Coding: Data Ingestion
     - [x] Validating: Data Completeness and Schema Checks
-    - [ ] Commit Code in Git Repo
+    - [x] Bronze Layer - Data Flow
+    - [x] Commit Code in Git Repo

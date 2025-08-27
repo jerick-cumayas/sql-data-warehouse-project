@@ -1,3 +1,19 @@
+/*
+===========================================
+STORED PROCEDURE: bronze.load_bronze
+===========================================
+Script purpose:
+	- Populates the crm tables with data from CSV files
+	- Populates the erp tables with data from CSV files
+	- Truncates the tables before bulk inserting data 
+	- Load duration is calculated for every data
+	- Total load duration for entire bronze batch is calculated
+	- Uses the following code: PROCEDURE, TRUNCATE, BULK INSERT, DATEDIFF, DECLARE
+	- Procedure contains try-catch block for error handling
+Usage example:
+ EXEC bronze.load_bronze
+*/
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME

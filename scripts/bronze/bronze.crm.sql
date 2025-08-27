@@ -1,3 +1,12 @@
+/*
+========================================
+DATA DEFINITION LANGUAGE
+========================================
+Script purpose:
+	- Drops the CRM table if already present in DataWarehouse database
+	- Creates a new table with defined columns and datatypes
+*/
+
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
 GO

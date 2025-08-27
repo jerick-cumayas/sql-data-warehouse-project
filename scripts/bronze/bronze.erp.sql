@@ -1,3 +1,12 @@
+/*
+========================================
+DATA DEFINITION LANGUAGE
+========================================
+Script purpose:
+	- Drops the ERP table if already present in DataWarehouse database
+	- Creates a new table with defined columns and datatypes
+*/
+
 IF OBJECT_ID('bronze.erp_cust_az12', 'U') IS NOT NULL
     DROP TABLE bronze.erp_cust_az12;
 GO
