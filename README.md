@@ -5,7 +5,7 @@ a repository of my implementation of a data warehouse project. it follows the im
 - [x] Create database "DataWarehouse"
 - [x] Create schemas for the different layers: bronze, silver and gold
 - [ ] Build the Bronze layer 
-    - [ ] Analysing: Source Systems
-    - [ ] Coding: Data Ingestion
-    - [ ] Validating: Data Completeness and Schema Checks
+    - [x] Analysing: Source Systems
+    - [x] Coding: Data Ingestion
+    - [x] Validating: Data Completeness and Schema Checks
     - [ ] Commit Code in Git Repo
