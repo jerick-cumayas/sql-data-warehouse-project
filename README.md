@@ -10,3 +10,6 @@ a repository of my implementation of a data warehouse project. it follows the im
     - [x] Validating: Data Completeness and Schema Checks
     - [x] Bronze Layer - Data Flow
     - [x] Commit Code in Git Repo
+- [ ] Build the Silver layer
+    - [ ] Explore and understand the data
+    - [ ] Build the DDL for Silver layer
