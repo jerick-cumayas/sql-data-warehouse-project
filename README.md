@@ -4,7 +4,7 @@ a repository of my implementation of a data warehouse project. it follows the im
 # Progress
 - [x] Create database "DataWarehouse"
 - [x] Create schemas for the different layers: bronze, silver and gold
-- [ ] Build the Bronze layer 
+- [x] Build the Bronze layer 
     - [x] Analysing: Source Systems
     - [x] Coding: Data Ingestion
     - [x] Validating: Data Completeness and Schema Checks
